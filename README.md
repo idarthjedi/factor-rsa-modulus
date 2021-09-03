@@ -4,6 +4,10 @@ This code was written to support a CTF on a popular hacking-learning platform.  
 
 The maths have been identified in the stackexchange link located at https://crypto.stackexchange.com/questions/43583/deduce-modulus-n-from-public-exponent-and-encrypted-data.
 
+https://www.youtube.com/watch?v=4zahvcJ9glg
+
+https://www.youtube.com/watch?v=oOcTVTpUsPQ
+
 The maths may be a little hard to understand (unless you speak l33t maths), so I converted the MathML/TeX lingo to python code. 
 
 I highly recommend understanding the maths, this code is really here to help you learn the maths, not to help you script-kiddie you're way to the flag. :P
