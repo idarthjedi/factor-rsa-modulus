@@ -8,7 +8,10 @@ def factor(messages: list, cipher_text: list, messages_prime: list, cipher_prime
     and the signature is based directly on the message, and the message is not padded before signed.
 
     For more information on how this works see:
+        https://www.youtube.com/watch?v=4zahvcJ9glg
+        https://www.youtube.com/watch?v=oOcTVTpUsPQ
         https://crypto.stackexchange.com/questions/43583/deduce-modulus-n-from-public-exponent-and-encrypted-data
+
     :param messages: A list of of short messages converted longs (bytes_to_long)
     :param cipher_text: A corresponding list of signatures such that cipher_text[x] = sign(messages[x], privkey)
     :param messages_prime: A list of messages raised to the power of 2, such that
